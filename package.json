@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node dist",
         "dev": "nodemon src/index.ts",
-        "build": "tsc",
+        "build": "npx tsc",
         "lint": "eslint --fix src test",
         "test": "jest",
         "typecheck": "tsc --noEmit"
